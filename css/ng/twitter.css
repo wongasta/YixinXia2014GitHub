@@ -1,0 +1,112 @@
+#activities .actNav li{
+    margin: 10px 0;
+}
+
+#activities .actNav li.title{
+    margin: 10px 0 10px 0;
+    font-size: 20px;
+    font-family:  museo700;
+    color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+#activities .actNav li a:link, #activities .actNav li a:active, #activities .actNav li a:visited{
+    opacity: 0.8;
+}
+
+#activities .actNav li a:hover{
+    opacity: 1;
+}
+
+#activities .actNav li img{
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow:    2px 2px 2px 0px rgba(0, 0, 0, 0.75);
+    box-shadow:         2px 2px 2px 0px rgba(0, 0, 0, 0.75);
+}
+
+#activities .twitterFeed > div {
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#activities div.defaultCol{
+    padding-top: 150px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#activities .twitterFeed > div.col1 {
+    width: 30%;
+}
+
+#activities .twitterFeed > div.col2 {
+    width: 35%;
+}
+
+#activities .twitterFeed > div.col3 {
+    width: 35%;
+}
+
+#activities h3.extendOver{
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#activities h3.extendOver:after, h3.extendOver:before {
+    width: 16%;
+}
+
+#activities h3.extendOver:before{
+    left: 10px;
+}
+
+#activities h3.extendOver:after{
+    right: 10px;
+}
+
+.twitterBox{
+    color: #FFFFFF;
+}
+
+.twitterBox .loading{
+    text-align: center;
+    padding-top: 100px;
+}
+
+    .twitterBox .loading p{
+        font-family: museo300;
+        color: #FFFFFF;
+        font-size: 18px;
+        padding: 10px 0;
+    }
+
+.twitterBox h3{
+    font-family: museo700;
+    color: #FFF;
+}
+
+.twitterBox img{
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+}
+
+.twitterBox ul li{
+    margin: 6px 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 8px;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+

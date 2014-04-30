@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Import all breakpoints */
+
+@import url('bps/break768.css') only screen and (min-width: 768px) and (max-width: 1020px);
+@import url('bps/break600.css') only screen and (min-width: 600px) and (max-width: 767px);
+@import url('bps/break480.css') only screen and (min-width: 480px) and (max-width: 599px);
+@import url('bps/break0.css') only screen and (max-width: 479px);
+

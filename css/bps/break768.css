@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* CSS Document - BREAK POINT 768-1000 */
+
+body{
+	background-size: 150% auto;
+}
+
+.bodyTransition{
+	-webkit-transition: none;
+	-moz-transition: none;
+	-ms-transition: none;
+	-o-transition: none;
+	transition: none;
+}
+
+.bodybg0{
+	background-image: url(../../images/backdrop0-768.jpg);
+}
+
+.bodybg1{
+	background-image: url(../../images/backdrop1-768.jpg);
+}
+
+.mainContainer{
+	width: 720px;
+}
+
+.mainNavTop .mainNav li a:link, .mainNavTop .mainNav li a:active, .mainNavTop .mainNav li a:visited{
+	font-size: 24px;
+}
+
+.allcontainer{
+	background-image: url(../../images/selfpic-768.jpg);
+}
+
+/*Timeline*/
+/*Out of 720 container*/
+#timeline .leftCol{
+	width: 216px;
+}
+
+#timeline .rightCol{
+	width: 504px;
+}
+
+#timeline.timeline1{
+	background-image: url(../../images/timeline/timeline0-768.jpg);
+}
+
+#timeline.timeline2{
+	background-image: url(../../images/timeline/timeline1-768.jpg);
+}
+
+#timeline.timeline3{
+	background-image: url(../../images/timeline/timeline2-768.jpg);
+}
+
+#timeline.timeline4{
+	background-image: url(../../images/timeline/timeline3-768.jpg);
+}
+
+#timeline.timeline5{
+	background-image: url(../../images/timeline/timeline4-768.jpg);
+}
+
+#timeline .rightCol h3{
+	font-size: 40px;
+}
+
+#timeline .rightCol p{
+	font-size: 18px;
+}
+
+.timelineList a:link, .timelineList a:active, .timelineList a:visited{
+	font-size: 26px;
+}
+.timelineList{
+	font-size: 22px;
+}
+
+/*Skills*/
+/*Out of 720 container*/
+#skills .leftCol{
+	width: 320px;
+}
+
+#skills .rightCol{
+	width: 380px;
+}
+
+.addDataContainer > .skillsDiv{
+    width: 380px;
+}
+
+#skills .chartText{
+	 opacity: 1;
+}
+
+#skills .mobileNav{
+	display: none;
+}
+
+/*Portfolio*/
+/*Out of 720 container*/
+#portfolio .leftCol{
+	width: 540px;
+}
+
+#portfolio .rightCol{
+	width: 160px;
+}
+
+#portfolio{
+	min-height: 350px;
+}
+
+#portfolio.subsectionContainer .mainContent {
+	min-height: 350px;
+}
+
+#portfolio .leftCol, #portfolio .rightCol{
+	min-height: 350px;
+}
+
+.navMenu .ulHeader{
+	font-size: 22px;
+}
+
+	.navMenu .portPoint a:link, .navMenu .portPoint a:active, .navMenu .portPoint a:visited, .navMenu .portFull a:link, .navMenu .portFull a:active, .navMenu .portFull a:visited{
+		font-size: 18px;
+	}
+	
+	.navMenu .portPoint a:hover, .navMenu .portFull a:hover{
+		margin-left: 25px;
+	}
+
+/* Contacts Divs */
+
+#contact .iconsContainer > div:first-child{
+	padding-left: 0;
+}
+
+#contact .iconsContainer > div:last-child{
+	padding-right: 0;
+}
+
+#contact .iconsContainer > div img{
+	width: 50%;
+}
+
+#contact .iconsContainer > div a:link, .contact .iconsContainer > div a:active, .contact .iconsContainer > div a:visited{
+	padding-top: 30px;
+}
+
+#contact .iconsContainer > div a:hover{
+	padding-top: 0;
+}
+
+#contact .iconsContainer > div p{
+	font-size: 20px;
+}
+
+#contact .mainContainer{
+	min-height: 480px;
+}
+
+/* Footer */
+#footer{
+	min-height: 160px;
+}
+
+#footer p{
+	font-size: 11px;
+}
+
+/*Activites*/
+/*Out of 720 container*/
+#activities .leftCol{
+    display: none;
+}
+
+#activities .rightCol{
+    width: 720px;
+    float: none;
+    margin-right: 0px;
+}
+
+#activities .mobileBtns{
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+}
+
+
+

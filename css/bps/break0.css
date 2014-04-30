@@ -1,0 +1,324 @@
+@charset "utf-8";
+/* CSS Document - BREAK POINT < 479 */
+
+body{
+	background-size: 150% auto;
+}
+
+h3.extendOver:after, h3.extendOver:before {
+    border-bottom: none;
+}
+.allcontainer{
+	background-image: url(../../images/selfpic-0.jpg);
+	background-size: 130% auto;
+}
+
+.mainContainer{
+	width: 320px;
+}
+
+.bodyTransition{
+	-webkit-transition: none;
+	-moz-transition: none;
+	-ms-transition: none;
+	-o-transition: none;
+	transition: none;
+}
+
+.bodybg0{
+	background-image: url(../../images/backdrop0-0.jpg);
+}
+
+.bodybg1{
+	background-image: url(../../images/backdrop1-0.jpg);
+}
+
+.mainNavTop{
+	background: none;
+	border: none;
+}
+
+.navbar .mainLogo{
+	display: none;
+}
+
+.mainNav .menuToggle a{
+	display: block;
+}
+
+.mainNav .navbar-nav{
+	display: none;
+	background: rgba(255, 255, 255, 0.6);
+	width: 130px;
+	padding: 5px 0;
+}
+
+.mainNavTop .mainNav li a:link, .mainNavTop .mainNav li a:active, .mainNavTop .mainNav li a:visited{
+	font-size: 30px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	color: #000;
+	width: 100px;
+	padding-left: 18px;
+}
+
+.subsectionContainer h2{
+	font-size: 24px;
+	padding-left: 10px;
+}
+
+/* Fixes the problem so it doesn't overlap with other elements */
+body > .navbar{
+	width: 85px;
+}
+
+#about .mainDesc{
+	margin-top: 40px;
+}
+
+#about h1{
+	font-size: 60px;
+}
+
+#about h3{
+	font-size: 50px;
+}
+
+#about h4{
+	font-size: 40px;
+}
+
+/*Timeline*/
+/*Out of 320 container*/
+#timeline .leftCol{
+	width: 148px;
+	min-height: 400px;
+}
+
+#timeline .rightCol{
+	width: 172px;
+	min-height: 400px;
+}
+
+#timeline{
+	min-height: 500px;
+}
+
+#timeline.timeline1{
+	background-image: url(../../images/timeline/timeline0-0.jpg);
+}
+
+#timeline.timeline2{
+	background-image: url(../../images/timeline/timeline1-0.jpg);
+}
+
+#timeline.timeline3{
+	background-image: url(../../images/timeline/timeline2-0.jpg);
+}
+
+#timeline.timeline4{
+	background-image: url(../../images/timeline/timeline3-0.jpg);
+}
+
+#timeline.timeline5{
+	background-image: url(../../images/timeline/timeline4-0.jpg);
+}
+
+#timeline .rightCol{
+	padding-right: 5px;
+}
+
+#timeline .rightCol h3{
+	font-size: 20px;
+}
+
+#timeline .rightCol p{
+	font-size: 14px;
+}
+
+.timelineList a:link, .timelineList a:active, .timelineList a:visited{
+	font-size: 14px;
+}
+.timelineList{
+	font-size: 12px;
+}
+
+.timelineList a:hover{
+	margin-left: 0;
+}
+
+/*Skills*/
+/*Out of 320 container*/
+#skills .leftCol{
+	display: none;
+}
+
+#skills .rightCol{
+	margin: 0 auto;
+	clear: both;
+	float: none;
+	width: 320px;
+	height: 600px;
+}
+
+#skills{
+	min-height: 700px;
+}
+
+#skills .mobileNav{
+	display: block;
+}
+
+#skills .mainContainer{
+	min-height: 680px;
+}
+
+.addDataContainer > .skillsDiv{
+	box-sizing: border-box;
+	width: 310px;
+	padding: 5px 25px;
+	margin: 0 auto;
+}
+
+#skills .chartText{
+	 opacity: 1;
+}
+
+.mobileNav ul{
+	margin: 15px 0;
+}
+
+.mobileNav ul li{
+	padding: 0 2px;
+}
+
+.mobileNav a:link, .mobileNav a:active, .mobileNav a:visited{
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: museo300, Arial, Helvetica, sans-serif;
+}	
+
+/*Portfolio*/
+/*Out of 320 container*/
+#portfolio .leftCol{
+	width: 320px;
+	padding: 15px 5px;
+	min-height: 165px;
+}
+
+#portfolio .rightCol{
+	display: none;
+}
+
+#portfolio{
+	min-height: 300px;
+}
+
+#portfolio.subsectionContainer .mainContent {
+	min-height: 350px;
+}
+
+.mobileNav{
+	display: block;
+}
+
+.modal-content{
+	min-height: 200px;
+	padding: 15px 7px;
+}
+
+/* Contacts Divs */
+
+#contact .iconsContainer > div:first-child{
+	padding-left: 0;
+}
+
+#contact .iconsContainer > div:last-child{
+	padding-right: 0;
+}
+
+#contact h3{
+	font-size: 16px;
+	margin: 40px 0 20px 0;
+}
+
+#contact h3:after, #contact h3:before {
+	display: none;
+}
+
+#contact .iconsContainer > div img{
+	width: 40%;
+}
+
+#contact .iconsContainer > div a:link, .contact .iconsContainer > div a:active, .contact .iconsContainer > div a:visited{
+	padding-top: 15px;
+}
+
+#contact .iconsContainer > div a:hover{
+	padding-top: 0;
+}
+
+#contact .iconsContainer > div p{
+	font-size: 14px;
+}
+
+#contact .mainContainer, #contact{
+	min-height: 350px;
+}
+
+/* Footer */
+
+#footer{
+	min-height: 150px;
+}
+
+#footer p{
+	font-size: 11px;
+}
+
+#footer > div{
+	width: 50%;
+}
+
+#footer >.placeHolder{
+	display: none;
+}
+
+/*Activites*/
+/*Out of 320 container*/
+#activities .leftCol{
+    display: none;
+}
+
+#activities .rightCol{
+    width: 320px;
+    float: none;
+    margin-right: 0px;
+}
+
+#activities .mobileBtns{
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+}
+
+#activities .twitterFeed > div {
+    float: none;
+}
+
+#activities .twitterFeed > div.col1, #activities .twitterFeed > div.col2, #activities .twitterFeed > div.col3 {
+    width: 100%;
+    padding: 3px 10px;
+}
+
+.twitterBox h3 {
+    margin: 5px 0;
+}
+
+
+
+
+
+
+

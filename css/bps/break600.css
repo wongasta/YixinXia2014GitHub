@@ -1,0 +1,239 @@
+@charset "utf-8";
+/* CSS Document - BREAK POINT 600 > 767 */
+
+body{
+	background-size: 120% auto;
+}
+
+h3.extendOver:after, h3.extendOver:before {
+    border-bottom: none;
+}
+
+.bodyTransition{
+	-webkit-transition: none;
+	-moz-transition: none;
+	-ms-transition: none;
+	-o-transition: none;
+	transition: none;
+}
+
+.bodybg0{
+	background-image: url(../../images/backdrop0-600.jpg);
+}
+
+.bodybg1{
+	background-image: url(../../images/backdrop1-600.jpg);
+}
+
+.mainContainer{
+	width: 560px;
+}
+
+.mainNavTop{
+	background: none;
+	border: none;
+}
+
+.navbar .mainLogo{
+	display: none;
+}
+
+.allcontainer{
+	background-image: url(../../images/selfpic-600.jpg);
+}
+
+.mainNav .menuToggle a{
+	display: block;
+}
+
+.mainNav .navbar-nav{
+	display: none;
+	background: rgba(255, 255, 255, 0.6);
+	width: 130px;
+	padding: 5px 0;
+}
+
+.mainNavTop .mainNav li a:link, .mainNavTop .mainNav li a:active, .mainNavTop .mainNav li a:visited{
+	font-size: 30px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	color: #000;
+	width: 100px;
+	padding-left: 18px;
+}
+
+/* Fixes the problem so it doesn't overlap with other elements */
+body > .navbar{
+	width: 85px;
+}
+
+/*Timeline*/
+/*Out of 560 container*/
+#timeline .leftCol{
+	width: 188px;
+    min-height: 400px;
+}
+
+#timeline .rightCol{
+	width: 372px;
+    min-height: 300px;
+}
+
+#timeline .mainContent{
+    min-height: 400px;
+}
+
+#timeline.timeline1{
+	background-image: url(../../images/timeline/timeline0-600.jpg);
+}
+
+#timeline.timeline2{
+	background-image: url(../../images/timeline/timeline1-600.jpg);
+}
+
+#timeline.timeline3{
+	background-image: url(../../images/timeline/timeline2-600.jpg);
+}
+
+#timeline.timeline4{
+	background-image: url(../../images/timeline/timeline3-600.jpg);
+}
+
+#timeline.timeline5{
+	background-image: url(../../images/timeline/timeline4-600.jpg);
+}
+
+#timeline .rightCol h3{
+	font-size: 36px;
+}
+
+#timeline .rightCol p{
+	font-size: 16px;
+}
+
+.timelineList a:link, .timelineList a:active, .timelineList a:visited{
+	font-size: 18px;
+}
+.timelineList{
+	font-size: 18px;
+}
+
+/*Skills*/
+/*Out of 560 container*/
+#skills .leftCol{
+	display: none;
+}
+
+#skills .rightCol{
+	margin: 0 auto;
+	clear: both;
+	float: none;
+}
+
+#skills .mobileNav{
+	display: block;
+}
+
+#skills .chartText{
+	 opacity: 1;
+}
+
+/*Portfolio*/
+/*Out of 560 container*/
+#portfolio .leftCol{
+	width: 560px;
+}
+
+#portfolio .rightCol{
+	display: none;
+}
+
+#portfolio.subsectionContainer .mainContent {
+	min-height: 480px;
+}
+
+.mobileNav{
+	display: block;
+}
+
+#portfolio{
+	min-height: 450px;
+}
+
+/* Contacts Divs */
+
+#contact .iconsContainer > div:first-child{
+	padding-left: 0;
+}
+
+#contact .iconsContainer > div:last-child{
+	padding-right: 0;
+}
+
+#contact .iconsContainer > div img{
+	width: 50%;
+}
+
+#contact .iconsContainer > div a:link, .contact .iconsContainer > div a:active, .contact .iconsContainer > div a:visited{
+	padding-top: 20px;
+}
+
+#contact .iconsContainer > div a:hover{
+	padding-top: 0;
+}
+
+#contact .iconsContainer > div p{
+	font-size: 20px;
+}
+
+#contact .mainContainer, #contact{
+	min-height: 450px;
+}
+
+/* Footer */
+#footer{
+	min-height: 130px;
+}
+
+#footer p{
+	font-size: 11px;
+}
+
+#footer > div{
+	width: 50%;
+}
+
+#footer >.placeHolder{
+	display: none;
+}
+
+/*Activites*/
+/*Out of 560 container*/
+#activities .leftCol{
+    display: none;
+}
+
+#activities .rightCol{
+    width: 560px;
+    float: none;
+    margin-right: 0px;
+}
+
+#activities .mobileBtns{
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+}
+
+#activities .twitterFeed > div {
+    float: none;
+}
+
+#activities .twitterFeed > div.col1, #activities .twitterFeed > div.col2, #activities .twitterFeed > div.col3 {
+    width: 100%;
+}
+
+
+
+
+
