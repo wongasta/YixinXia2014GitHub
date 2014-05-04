@@ -1,0 +1,112 @@
+.diabloBox {
+    color: #FFFFFF;
+    padding-left: 50px;
+}
+
+.diabloBox .heroNav {
+    margin: 30px 0;
+}
+
+.diabloBox > div > h3 {
+    padding: 0 10px;
+}
+
+.diabloBox .heroNav > li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.diabloBox .navDiv {
+    text-align: center;
+}
+
+.diabloBox .heroNav > li > a:link, .diabloBox .heroNav > li > a:active, .diabloBox .heroNav > li > a:visited {
+    background-color: rgba(102, 23, 12, 0.6);
+    padding: 8px;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    font-family: museo700;
+    font-size: 20px;
+
+}
+
+.diabloBox .heroNav > li > a:hover {
+    text-decoration: none;
+    background-color: rgba(102, 23, 12, 0.8);
+}
+
+.charDetails .leftChar, .charDetails .rightChar {
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    padding: 10px;
+}
+
+.charDetails .leftChar {
+    text-align: left;
+}
+
+.charDetails .leftChar h3 {
+    font-size: 35px;
+    color: #FFFFFF;
+    font-family: museo700;
+}
+
+.charDetails .rightChar {
+    text-align: left;
+    font-size: 16px;
+}
+
+.charItems {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.charItems .itemPic {
+    width: 35%;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.charItems .itemAttr {
+    width: 65%;
+    float: right;
+    box-sizing: border-box;
+}
+
+.itemContainer {
+    display: table;
+    float: none;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 25px 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 8px;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

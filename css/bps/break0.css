@@ -1,6 +1,12 @@
 @charset "utf-8";
 /* CSS Document - BREAK POINT < 479 */
+.desktopOnly{
+    display: none;
+}
 
+.mobileOnly{
+    display: block;
+}
 body{
 	background-size: 150% auto;
 }
@@ -316,6 +322,39 @@ body > .navbar{
     margin: 5px 0;
 }
 
+/*Diablo bps*/
+
+.charItems .itemPic{
+    width: 100%;
+    float: none;
+}
+
+.charItems .itemAttr{
+    width: 100%;
+    float: none;
+}
+
+.charDetails .leftChar{
+    text-align: left;
+}
+
+.charDetails .leftChar, .charDetails .rightChar{
+    width: 100%;
+    float: none;
+}
+
+.diabloBox{
+    padding-left: 0;
+}
+
+.diabloBox .heroNav>li>a:link, .diabloBox .heroNav>li>a:active, .diabloBox .heroNav>li>a:visited{
+    font-size: 14px;
+
+}
+
+.charDetails .rightChar, .charDetails .leftChar{
+    text-align: center;
+}
 
 
 

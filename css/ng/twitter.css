@@ -31,7 +31,7 @@
 }
 
 #activities div.defaultCol{
-    padding-top: 150px;
+    padding-top: 10px;
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -68,19 +68,19 @@
     color: #FFFFFF;
 }
 
-.twitterBox .loading{
+#activities .loading{
     text-align: center;
     padding-top: 100px;
 }
 
-    .twitterBox .loading p{
+#activities .loading p{
         font-family: museo300;
         color: #FFFFFF;
         font-size: 18px;
         padding: 10px 0;
     }
 
-.twitterBox h3{
+#activities h3{
     font-family: museo700;
     color: #FFF;
 }

@@ -1,6 +1,14 @@
 @charset "utf-8";
 /* CSS Document - BREAK POINT 600 > 767 */
 
+.desktopOnly{
+    display: none;
+}
+
+.mobileOnly{
+    display: block;
+}
+
 body{
 	background-size: 120% auto;
 }

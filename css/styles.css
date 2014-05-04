@@ -66,6 +66,20 @@
 
 /* Reusables */
 
+.desktopOnly{
+    display: block;
+}
+
+.mobileOnly{
+    display: none;
+    text-align: center;
+}
+
+.mobileOnly .clickMe{
+    width: 200px;
+    padding: 10px 0;
+}
+
 .color-change{
 	-moz-transition: border-bottom-color  0.2s;
     -webkit-transition: border-bottom-color 0.2s;
@@ -347,6 +361,11 @@ body{
 	border-top: 15px solid #709340;
 	background: #5c7b31;
 	z-index: 3;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 #portfolio{

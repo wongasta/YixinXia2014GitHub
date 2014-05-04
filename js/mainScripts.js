@@ -60,6 +60,9 @@ var mainModule = {
 	navLinkColors: function(color){
 		var hexColor;
 		switch(color){
+            case 'grey':
+                hexColor = '#cdcbaf';
+                break
 			case 'blue':
 				hexColor = '#b3ece6';
 				break;
@@ -115,7 +118,7 @@ var mainModule = {
 
 //Individual components 
 //Timeline module 
-timelineModule={
+var timelineModule={
 	mouseOverTL: $('.timelineList a').on('mouseenter', function(){
 		$('.timelineList a').removeClass('active');
 		$(this).addClass('active');
@@ -131,7 +134,7 @@ timelineModule={
 };
 
 //handles skills
-skillsModule={
+var skillsModule={
 	chartShown: 0,
 	displayChart: function(displayDiv) {
 	 // Build the chart - HIGH CHART MUST BE INCLUDED FOR IT TO WORK
@@ -255,7 +258,12 @@ var portfolioModule = {
 	})
 }
 
-
+//Activities module - only one functin to be called outside of angular
+var activitiesModule = {
+    changeBGColor: function(color, borderColor){
+        $('#activities').css({'background-color': color, 'border-top-color': borderColor });
+    }
+}
 
 $(document).ready(function() {
 	
